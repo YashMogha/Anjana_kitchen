@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    text-transform: capitalize;
 }
 /* nav */
 #nav{
@@ -22,16 +23,18 @@ html{
 /* tagline */
 #home::before{
     content: "";
-    background: url(images/foodbg1.jpg) no-repeat center center/cover;
+    background: url(foodbg1.jpg) no-repeat center center/cover;
     display: block;
-    height: 260px;
+    height: 290px;
     width: 100%;
     position:absolute ;
     /* top: 0%; */
     z-index: -1;
+    
 }
 #home{
-height: 260px;
+height: 290px;
+margin-bottom: 15px;
 
 }
 #tagline{
@@ -82,7 +85,7 @@ height: 260px;
 /* contact */
 #contact::before{
     content: "";
-    background: url(images/bg3.jpg) no-repeat center center/cover ;
+    background: url(bg3.jpg) no-repeat center center/cover ;
     width: 100%;
     display: block;
     height: 620px;
